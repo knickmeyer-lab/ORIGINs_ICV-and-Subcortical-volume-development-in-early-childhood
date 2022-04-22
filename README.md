@@ -232,9 +232,11 @@ for (i in 1:length(mul_raw_models)) {
 load(data_pred)
 library(mediation)
 
-b<-lm(vol~SEXM+LBW+LME+LIF+CHT, data = data_pred)
-summary(b)
-c<-lm(mul_score~vol+SEXM+LBW+LME+LIF+CHT, data = data_pred)
+b <-lm (vol~SEXM+LBW+LME+LIF+CHT, data = data_pred)
+summary(b) 
+
+c <-lm(mul_score~vol+SEXM+LBW+LME+LIF+CHT, data = data_pred)
 summary(c)
-model<- mediate(b, c, treat=(covariate), mediator=(vol), boot= TRUE,sims=10000)
+
+model <- mediate(b, c, treat=(covariate), mediator=(vol), boot= TRUE,sims=10000)
 summary(model)
