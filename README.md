@@ -2,7 +2,7 @@
 
 This repository contains the scripts that were used to do the analysis for the paper "Mapping Subcortical Brain Development and Cognition in Infancy and Early Childhood: A Global, Multi-Cohort Study "
 
-The data is obtained from 8 cohorts. The data for 3 of the cohorts (UNC Early Brain Development in twins, UNC/UMN Baby Connectome Project,Longitudinal MRI Study of Infants at Risk for Autism (IBIS)) are available upon request for access from NDA. The other cohorts data are available upon request to the parent cohorts on IRB approval.
+The data is obtained from 8 cohorts. The data for 2 of the cohorts ( UNC/UMN Baby Connectome Project,Longitudinal MRI Study of Infants at Risk for Autism (IBIS)) are available upon request for access from NDA. The other cohorts data are available upon request to the parent cohorts on IRB approval.
 
 #########################################
 # Functions for non-linear mixed models #
